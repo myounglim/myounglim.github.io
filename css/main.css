@@ -1,7 +1,34 @@
+.container-fluid {
+    font-family: 'Ubuntu', sans-serif;
+    color: teal;
+}
+
 .projects-image {
-    width: 500px;
+    width: 55%;
+    height: 350px;
+    display: block;
+    margin: auto;
 }
 
 .projects-description {
     font-weight: lighter;
+    font-size: 16px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 4em;
+    color: teal;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects-link {
+    display: inline-block;
+    margin: 8px;
 }
